@@ -389,7 +389,17 @@ input[type="search"]::-webkit-search-cancel-button {
   -webkit-transition-delay:  var(--d);
   transition-delay: var(--d);
 
+  -webkit-animation: span 9s infinite linear;
+  -moz-animation: span 9s infinite linear;
+  -o-animation: span 9s infinite linear;
   animation: span 9s infinite linear;
+
+  animation: span 9s infinite linear;
+
+  -webkit-animation-delay: 4.9s;
+  -moz-animation-delay: 4.9s;
+  -o-animation-delay: 4.9s;
+  
   animation-delay: 4.9s;
   filter: drop-shadow(0px 10px 30px rgba(148, 148, 148, 0.1));
 
