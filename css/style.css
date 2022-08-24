@@ -394,7 +394,6 @@ input[type="search"]::-webkit-search-cancel-button {
   -o-animation: span 9s infinite linear;
   animation: span 9s infinite linear;
 
-  animation: span 9s infinite linear;
 
   -webkit-animation-delay: 4.9s;
   -moz-animation-delay: 4.9s;
@@ -483,6 +482,16 @@ input[type="search"]::-webkit-search-cancel-button {
 
 
 /* ------------------------- MOBAIL -------------------------- */
+
+@media (min-width: 1400px) {
+  form {
+    width: 597px;
+  }
+
+  #search {
+    max-width: 597px;
+  }
+}
 
 @media (max-width: 876px) {
   .header{
